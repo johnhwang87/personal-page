@@ -1,0 +1,223 @@
+/*font-family: 'Covered By Your Grace', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Poiret One', cursive;
+*/
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+.topbar {
+  color: white;
+
+}
+.topbar:hover {
+  color: red;
+  text-decoration: none;
+}
+.topbar:active {
+  color: red;
+  text-decoration: none;
+}
+.view {
+    width: 800px;
+    height: 300px;
+    margin: 10px;
+    float: left;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+}
+
+.view .mask, .view .content {
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+/*get this to work*/
+.view img {
+    display: block;
+    /*position: relative;*/
+    /*background-size: cover;*/
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 18px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    margin-right: 45px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000
+}
+.view-first img {
+    transition: all 0.2s linear;
+}
+.view-first .mask {
+    opacity: 0;
+    background-color: rgba(225,30,30, 0.7);
+    transition: all 0.4s ease-in-out;
+}
+.view-first h2 {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.view-first p {
+    transform: translateY(100px);
+    opacity: 0;
+  transition: all 0.2s linear;
+}
+.view-first a.info{
+    opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+.view-first:hover img {
+  transform: scale(1.1);
+}
+.view-first:hover .mask {
+  opacity: 1;
+}
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.view-first:hover p {
+    transition-delay: 0.1s;
+}
+.view-first:hover a.info {
+    transition-delay: 0.2s;
+}
+.view-first {
+  margin-left: 160px;
+}
+.contact {
+  height: 600px;
+}
+.contact h5 {
+  font-size: 17px;
+}
+.contact-img {
+  width: 30px;
+}
+.icons img {
+  width: 60px;
+  margin: 10px;
+}
+.right-contact {
+  margin-top: 20px;
+}
+.info {
+  margin-left: 70px;
+}
+.right-contact img {
+  margin-left: 35px;
+}
+#contacting img {
+  width: 500px;
+}
+.right-contact h1 {
+  font-family: Pacifico;
+  color: #f45050;
+}
+.right-contact p, h5 {
+  font-family: Poiret One;
+}
+#project-description {
+  font-family: Poiret One;
+  font-size: 20px;
+  text-align: center;
+}
+#blood {
+  color: #aa0303;
+  font-family: Pacifico;
+  font-size: 45px;
+}
+#sweat {
+  color: #dbbc20;
+  font-family: Pacifico;
+  font-size: 45px;
+}
+#tears {
+  color: #008cff;
+  font-family: Pacifico;
+  font-size: 45px;
+}
+#project-heading {
+  font-family: Covered By Your Grace;
+}
+#skillGraph {
+  /*float: left;*/
+  /*clear: right;*/
+  width: 400px;
+  margin: 20px 0px 30px 30px;
+}
+
+#graph {
+  /*float: left;*/
+  /*clear: right;*/
+  width: 100%;
+  margin: -5px 0px 0px 0px;
+  text-align: left;
+  font-weight: 600;
+}
+
+#graphBottom {
+  /*float: left;*/
+  /*clear: right;*/
+  width: 80%;
+  margin: 2px 0px 0px 0px;
+}
+#graph img {
+  width: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
