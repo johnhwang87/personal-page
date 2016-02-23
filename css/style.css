@@ -23,8 +23,12 @@ li {
 .view {
     width: 800px;
     height: 300px;
-    margin: 10px;
-    float: left;
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+    /*float: left;*/
     border: 10px solid #fff;
     overflow: hidden;
     position: relative;
@@ -34,7 +38,10 @@ li {
 }
 
 .view .mask, .view .content {
-    width: 800px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 300px;
     position: absolute;
     overflow: hidden;
@@ -60,7 +67,7 @@ li {
 .view p {
     font-family: Georgia, serif;
     font-style: italic;
-    font-size: 18px;
+    font-size: 17px;
     position: relative;
     color: #fff;
     padding: 10px 20px 20px;
@@ -120,7 +127,7 @@ li {
     transition-delay: 0.2s;
 }
 .view-first {
-  margin-left: 160px;
+  /*margin-left: 160px;*/
 }
 .contact {
   height: 600px;
