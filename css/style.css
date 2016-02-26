@@ -14,11 +14,11 @@ li {
   font-size: 20px;
   padding-left: 20px;
 }
-.topbar:hover {
+.topbar:active {
   color: red;
   text-decoration: none;
 }
-.topbar:active {
+.topbar:hover {
   color: red;
   text-decoration: none;
 }
@@ -179,25 +179,6 @@ li {
 #project-heading {
   font-family: Covered By Your Grace;
 }
-/*#skillGraph {
-  width: 400px;
-  margin: 20px 0px 30px 30px;
-}
-
-#graph {
-  width: 100%;
-  margin: -5px 0px 0px 0px;
-  text-align: left;
-  font-weight: 600;
-}
-
-#graphBottom {
-  width: 80%;
-  margin: 2px 0px 0px 0px;
-}
-#graph img {
-  width: 25px;
-}*/
 #greeting {
   font-family: Poiret One;
   text-align: center;
@@ -216,19 +197,39 @@ li {
     transform: scale(2);
     color: red;
 }
-
-
 .skills p {
   text-align: center;
   font-family: Poiret One;
   font-size: 15px;
-  box-shadow: 10px 10px 20px #CFB53B;
+  /*box-shadow: 10px 10px 20px #CFB53B;*/
 }
 .medal {
   height: 18px;
 }
-
-
+.mypic {
+  width: 450px;
+  float: left;
+  margin-left: -40px;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #888;
+  border-bottom: 1px solid #888;
+  background-color: #fcfcfc;
+  padding: 8px;
+}
+.bio {
+  padding: 25px;
+  margin-left: 20px;
+  margin-top: -25px;
+  font-size: 20px;
+  /*border-left: 5px double red;*/
+  font-family: Covered By Your Grace;
+}
+.skills h2 {
+  text-align: center;
+  font-family: Pacifico;
+  color: red;
+}
 
 
 
