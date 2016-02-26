@@ -10,7 +10,9 @@ li {
 }
 .topbar {
   color: white;
-
+  font-family: Covered By Your Grace;
+  font-size: 20px;
+  padding-left: 20px;
 }
 .topbar:hover {
   color: red;
@@ -23,12 +25,9 @@ li {
 .view {
     width: 800px;
     height: 300px;
-
     margin-left: auto;
     margin-right: auto;
     display: block;
-
-    /*float: left;*/
     border: 10px solid #fff;
     overflow: hidden;
     position: relative;
@@ -36,7 +35,6 @@ li {
     box-shadow: 1px 1px 2px #e6e6e6;
     cursor: default;
 }
-
 .view .mask, .view .content {
     width: 100%;
     display: block;
@@ -48,11 +46,8 @@ li {
     top: 0;
     left: 0
 }
-/*get this to work*/
 .view img {
     display: block;
-    /*position: relative;*/
-    /*background-size: cover;*/
 }
 .view h2 {
     text-transform: uppercase;
@@ -184,16 +179,12 @@ li {
 #project-heading {
   font-family: Covered By Your Grace;
 }
-#skillGraph {
-  /*float: left;*/
-  /*clear: right;*/
+/*#skillGraph {
   width: 400px;
   margin: 20px 0px 30px 30px;
 }
 
 #graph {
-  /*float: left;*/
-  /*clear: right;*/
   width: 100%;
   margin: -5px 0px 0px 0px;
   text-align: left;
@@ -201,16 +192,41 @@ li {
 }
 
 #graphBottom {
-  /*float: left;*/
-  /*clear: right;*/
   width: 80%;
   margin: 2px 0px 0px 0px;
 }
 #graph img {
   width: 25px;
+}*/
+#greeting {
+  font-family: Poiret One;
+  text-align: center;
+}
+.icon {
+  height: 70px;
+}
+.skills li:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    color: red;
 }
 
 
+.skills p {
+  text-align: center;
+  font-family: Poiret One;
+  font-size: 15px;
+  box-shadow: 10px 10px 20px #CFB53B;
+}
+.medal {
+  height: 18px;
+}
 
 
 
