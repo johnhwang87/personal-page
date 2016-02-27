@@ -8,10 +8,14 @@ li {
   display: inline-block;
   padding: 10px;
 }
+nav {
+  height: 50px;
+  line-height: 30px;
+}
 .topbar {
   color: white;
   font-family: Covered By Your Grace;
-  font-size: 20px;
+  font-size: 30px;
   padding-left: 20px;
 }
 .topbar:active {
@@ -135,7 +139,7 @@ li {
 }
 .icons img {
   width: 60px;
-  margin: 10px;
+  margin: 5px;
 }
 .right-contact {
   margin-top: 20px;
@@ -178,9 +182,6 @@ li {
 }
 #project-heading {
   font-family: Covered By Your Grace;
-}
-#greeting {
-  font-family: Poiret One;
   text-align: center;
 }
 .icon {
@@ -207,7 +208,7 @@ li {
   height: 18px;
 }
 .mypic {
-  width: 450px;
+  width: 400px;
   float: left;
   margin-left: -40px;
   border-left: 1px solid #ccc;
@@ -218,17 +219,31 @@ li {
   padding: 8px;
 }
 .bio {
-  padding: 25px;
+  padding: 40px;
   margin-left: 20px;
   margin-top: -25px;
   font-size: 20px;
-  /*border-left: 5px double red;*/
   font-family: Covered By Your Grace;
 }
 .skills h2 {
   text-align: center;
   font-family: Pacifico;
   color: red;
+}
+.homescreen {
+  height: auto;
+  margin-top: -600px;
+  z-index: -1;
+  position: absolute;
+}
+#greeting {
+  font-family: Poiret One;
+  text-align: center;
+  color: white;
+  margin-top: 200px;
+  z-index: 1000;
+  position: relative;
+  font-size: 100px;
 }
 
 
