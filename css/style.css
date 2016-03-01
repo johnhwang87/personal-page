@@ -11,12 +11,14 @@ li {
 nav {
   height: 50px;
   line-height: 30px;
+  background: rgba(0, 0, 0, 0.7);
 }
 .topbar {
   color: white;
   font-family: Covered By Your Grace;
-  font-size: 30px;
+  font-size: 25px;
   padding-left: 20px;
+  padding: 20px;
 }
 .topbar:active {
   color: red;
@@ -207,10 +209,46 @@ nav {
 .medal {
   height: 18px;
 }
+.pictures img {
+  margin: 10px 35px 20px;
+}
+.picz1 {
+  -webkit-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+}
+.picz2 {
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+.mypic2 {
+  width: 360px;
+  display: inline-block;
+  /*float: right;*/
+  /*margin-left: -40px;*/
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #888;
+  border-bottom: 1px solid #888;
+  background-color: #fcfcfc;
+  padding: 8px;
+  display: inline-block;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
 .mypic {
-  width: 400px;
-  float: left;
-  margin-left: -40px;
+  width: 275px;
+  display: inline-block;
+  /*float: left;*/
+  /*margin-left: -40px;*/
   border-left: 1px solid #ccc;
   border-top: 1px solid #ccc;
   border-right: 1px solid #888;
@@ -219,10 +257,10 @@ nav {
   padding: 8px;
 }
 .bio {
-  padding: 40px;
+  padding: 45px;
   margin-left: 20px;
   margin-top: -25px;
-  font-size: 20px;
+  font-size: 25px;
   font-family: Covered By Your Grace;
 }
 .skills h2 {
@@ -232,7 +270,8 @@ nav {
 }
 .homescreen {
   height: auto;
-  margin-top: -600px;
+  margin-top: -320px;
+  width: 100%;
   z-index: -1;
   position: absolute;
 }
@@ -241,9 +280,17 @@ nav {
   text-align: center;
   color: white;
   margin-top: 200px;
+  width: 100%;
   z-index: 1000;
   position: relative;
-  font-size: 100px;
+  font-size: 90px;
+  background: rgba(0, 0, 0, 0.4);
+}
+#greeting a {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  opacity:
 }
 
 
